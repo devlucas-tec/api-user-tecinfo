@@ -1,0 +1,23 @@
+{
+  "name": "bpw-lourdinas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/dist/server.ts",
+ "scripts": {
+  "dev": "tsx watch src/server.ts",
+  "build": "tsc"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.9.3",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
