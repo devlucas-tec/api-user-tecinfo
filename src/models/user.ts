@@ -5,7 +5,7 @@ export class User {
         private senha: string
     ) {}
 
-    verificarSenha(senha: string): boolean {
-        return this.senha === senha;
+    verificarSenha(senhaDiigitada: string): boolean {
+        return this.senha === senhaDiigitada;
     }
 }
